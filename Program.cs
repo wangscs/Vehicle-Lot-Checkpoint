@@ -9,14 +9,13 @@ namespace Vehicle_Lot_Checkpoint
   {
     static void Main(string[] args)
     {
-      //   Vehicle car1 = new Vehicle();
-      //   car1.honk();
-      List<object> parkingLot = new List<object>();
+      List<Vehicle> parkingLot = new List<Vehicle>();
       
       Semi semi1 = new Semi("yellow","Volvo","VML500", 2015);
       Car car1 = new Car("black", "Tesla", "S", 2021);
-     
-      semi1.MakeNoise();
+
+      parkingLot.Add(semi1);
+      parkingLot.Add(car1);
     }
   }
 }
