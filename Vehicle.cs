@@ -1,8 +1,8 @@
 using System;
 
-namespace Vehicle_Vehicle
+namespace Vehicle_Lot
 {
-  class Vehicle
+  internal class Vehicle
   {
     protected string honk(string sound)
     {

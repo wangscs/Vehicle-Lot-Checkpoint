@@ -7,9 +7,10 @@ namespace Vehicle_Lot_Checkpoint
   {
     static void Main(string[] args)
     {
-      // Vehicle car1 = new Vehicle();
-
+      //   Vehicle car1 = new Vehicle();
+      //   car1.honk();
       Semi semi1 = new Semi();
+      semi1.makeNoise();
     }
   }
 }
