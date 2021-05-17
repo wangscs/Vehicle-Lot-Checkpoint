@@ -1,8 +1,6 @@
-using System;
-
 namespace Vehicle_Lot
 {
-  internal class Vehicle
+  public class Vehicle
   {
     protected string Color { get; set; }
     protected string Make { get; set; }

@@ -1,8 +1,6 @@
-using System;
-
 namespace Vehicle_Lot
 {
-  class Car : Vehicle
+  public class Car : Vehicle
   {
     public Car(string color, string make, string model, int year)
     {
@@ -15,7 +13,6 @@ namespace Vehicle_Lot
     {
       return Honk("Beep");
     }
-    
     public string StartEngineSemi()
     {
       return StartEngine();

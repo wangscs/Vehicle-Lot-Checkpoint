@@ -1,10 +1,7 @@
-using System;
-
 namespace Vehicle_Lot
 {
-  class Semi : Vehicle
+  public class Semi : Vehicle
   {
-    
     public Semi(string color, string make, string model, int year)
     {
       Color = color;
@@ -16,12 +13,9 @@ namespace Vehicle_Lot
     {
       return Honk("BOOOOOOOOOOM");
     }
-    
     public string StartEngineSemi()
     {
       return StartEngine();
     }
-    
-    
   }
 }
